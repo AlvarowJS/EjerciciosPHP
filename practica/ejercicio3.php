@@ -1,5 +1,5 @@
 <?php
-$actualYear = 2021;
+$actualYear = 2050;
 $year= 2050;
 if($actualYear>$year){
     $calculo = $actualYear - $year;
@@ -7,5 +7,7 @@ if($actualYear>$year){
 }elseif($actualYear<$year){
     $calculo = $year - $actualYear;
     echo "Para llegar al año ".$year. " faltan ". $calculo;
+}elseif($actualYear==$year){
+    echo "Son el mismo año!";
 }
 ?>
